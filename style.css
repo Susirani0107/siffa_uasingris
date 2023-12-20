@@ -1,0 +1,347 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color:#191919;
+    margin: 0;
+}
+.navbar {
+    height: 100vh;
+    width: 100%;
+    background-color:#191919;
+}
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: black;;
+    border-bottom: 1px solid rgb(147, 198, 240);
+    overflow: hidden;
+    margin: 0;
+}
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color: rgb(145, 171, 241);;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: rgb(145, 171, 241);
+    transition: 0.5s;
+}
+.banner {
+    height: 60vh;
+    border: 2px solid;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    position: relative;
+}
+.banner::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+section {
+    padding: 2px 0;
+}
+.btn {
+    background-color: rgb(66, 81, 165);
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition:  transform .5s;
+}
+.btn:hover {
+    transform: scale(1.2);
+    border: 2px solid rgb(48, 59, 158);
+    background-color: transparent;
+}
+.image {
+    width: 30%;
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    transform: rotateY(180deg);
+}
+.image img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 23%;
+    transform: translateX(20%);
+}
+.h4 {
+    color: rgb(145, 171, 241);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.h1 {
+    color: rgb(145, 171, 241);
+    font-size: 65px;
+    margin-bottom: 20px 0;
+}
+.h3 {
+    color: rgb(145, 171, 241);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.content a {
+    font-size: 20px;
+    background: rgb(12, 12, 12);
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+    transition: .5s;
+}
+.content a:hover {
+    background: transparent;
+    border: 2px solid red;
+}
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+}
+.about-me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me img {
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+}
+.about-text {
+    width: 550px;
+}
+.about-text h2 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid  rgb(147, 198, 240);
+}
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p {
+    color:  rgb(145, 171, 241);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+.button {
+    background-color: rgb(48, 59, 158);
+    color: rgb(17, 16, 16);
+    border: 2px solid rgb(247, 243, 243);
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30 px;
+    transition: .5s;
+}
+.button:hover {
+    background-color: transparent;
+    border: 2px solid  rgb(48, 59, 158);
+    cursor: pointer;
+}
+.Education1 {
+    height: 100vh;
+    width: 100%;
+    background-color:#191919;
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.Education {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+}
+.box-education {
+    text-align: center;
+    color: rgb(145, 171, 241) ;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.box-education .box-kiri {
+    width: 250px;
+    height: 250px;
+    background-color: #1e14ad;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+    font-size: 20px;
+}
+.box-education .box-tengah {
+    width: 250px;
+    height: 250px;
+    background-color: #1e14ad;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+    font-size: 20px;
+}
+.box-education .box-kanan {
+    width: 250px;
+    height: 250px;
+    background-color: #1e14ad;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+    font-size: 20px;
+}
+
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color:  rgb(48, 59, 158);
+    color: #191919;
+}
+.box-education h3, p {
+
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+
+}
+.box-education h1 {
+
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+    font-size: 4rem;
+}
+.SoftSkill {
+    height: 100vh;
+    width: 100%;
+    background-color:#191919;
+}
+.box-SoftSkill {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(145, 171, 241) ;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.box-SoftSkill     .box-kiri {
+    width: 250px;
+    height: 220px;
+    background-color: #1e14ad;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+}
+.box-SoftSkill     .box-tengah {
+    width: 250px;
+    height: 220px;
+    background-color: #1e14ad;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+}
+.box-SoftSkill     .box-kanan {
+    width: 250px;
+    height: 220px;
+    background-color: #1e14ad;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+}
+
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color:  rgb(48, 59, 158);
+    color: #191919;
+}
+.box-soft-skill h3, p {
+
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+
+}
+.box-SoftSkill h1 {
+
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+    font-size: 4rem;
+}
+.Contact1 {
+    height: 100vh;
+    width: 100%;
+    background-color:#191919;
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.Contact {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+}
+.footer {
+    background-color: rgb(145, 171, 241);
+    text-align: center;
+    padding: 10px;
+}
+
